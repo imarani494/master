@@ -1,0 +1,80 @@
+.navbar {
+  background: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h2 {
+  color: #667eea;
+  font-size: 24px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 15px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+.sidebar {
+  width: 250px;
+  background: white;
+  height: calc(100vh - 60px);
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-nav {
+  padding: 20px 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 30px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.sidebar-link:hover {
+  background: #f3f4f6;
+  color: #667eea;
+}
+
+.sidebar-link.active {
+  background: #667eea;
+  color: white;
+  border-right: 3px solid #5568d3;
+}
+
+.sidebar-link svg {
+  font-size: 20px;
+}
